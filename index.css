@@ -1,0 +1,84 @@
+/*
+BalaM314- Interstellar.
+
+*/
+
+
+:root {
+  --background-primary: #101040 !important;
+  --background-secondary: #101030 !important;
+  --background-tertiary: #000001 !important;
+  --background-text-area: #FF00FF !important;
+  --background-secondary-alt: #000030 !important;
+  --channeltextarea-background: #000040 !important;
+  --background-floating: #000060 !important;
+  --scrollbar-thin-thumb: #004b10 !important;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #005b10 !important;
+  --scrollbar-auto-track: #003b10 !important;
+  --scrollbar-auto-scrollbar-color-thumb: #005b10 !important;
+  --scrollbar-auto-scrollbar-color-track: #003b10 !important;
+}
+.theme-dark {
+  .container-1D34oG {
+    background-color: #0c0c35 !important;
+  }
+  .uploadModal-2ifh8j {
+    background-color: #101030 !important;
+  }
+  .root-1gCeng {
+    background-color: #101040 !important;
+  }
+  .footer-2gL1pp {
+    background-color: #101042 !important;
+  }
+  .headerNormal-T_seeN {
+    background-color: #001030 !important;
+  }
+  .body-3iLsc4 {
+    background-color: #002045 !important;
+  }
+  .footer-1fjuF6 {
+    background-color: #002045 !important;
+  }
+  .container-3ayLPN {
+    background-color: #000060 !important;
+  }
+  .option-96V44q.selected-rZcOL- {
+    background-color: #000040 !important;
+    background-image: none !important;
+  }
+  .option-96V44q:after {
+    background-image: none !important;
+  }
+  .option-96V44q::before {
+    background-image: none !important;
+  }
+  #search-results .focused-2bY0OD {
+    background-color: #000060 !important;
+  }
+  .header-2N-gMV {
+    color: #EEFFFF !important;
+  }
+  .plusIcon-v0BTrL {
+    color: #CCCCDD !important;
+  }
+  .searchClearHistory-2cSSMO {
+    color: #CCCCEE !important;
+  }
+  .calendarPicker-2yf6Ci .react-datepicker {
+    background-color: #000060 !important;
+  }
+  .calendarPicker-2yf6Ci .react-datepicker__header {
+    background-color: #000060 !important;
+  }
+  .calendarPicker-2yf6Ci .react-datepicker__day--outside-month {
+    background-color: #040450 !important;
+  }
+  .calendarPicker-2yf6Ci .react-datepicker__day--disabled {
+    background-color: #040450 !important;
+  }
+  .pageWrapper-1PgVDX {
+    background-color: #101080 !important;
+  }
+}
