@@ -3,8 +3,7 @@ BalaM314- Interstellar.
 
 */
 
-.theme-dark,
-:root {
+.theme-dark:root {
   --background-primary: #101040 !important;
   --background-secondary: #101030 !important;
   --background-tertiary: #000001 !important;
