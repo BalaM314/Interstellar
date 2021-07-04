@@ -18,17 +18,22 @@ BalaM314- Interstellar.
   --scrollbar-auto-scrollbar-color-thumb: #005b10 !important;
   --scrollbar-auto-scrollbar-color-track: #003b10 !important;
 }
+.layer-2KE1M9 .theme-light {
+  --header-primary: #9EC !important;
+  --header-secondary: #8A9 !important;
+  --text-normal: #8A8 !important;
+}
 .theme-dark .container-1D34oG {
   background-color: #0c0c35 !important;
 }
 .theme-dark .uploadModal-2ifh8j {
-  background-color: #101030 !important;
+  background-color: var(--background-secondary) !important;
 }
 .theme-dark .root-1gCeng {
-  background-color: #101040 !important;
+  background-color: var(--background-primary) !important;
 }
 .theme-dark .footer-2gL1pp {
-  background-color: #101042 !important;
+  background-color: #337 !important;
 }
 .theme-dark .headerNormal-T_seeN {
   background-color: #001030 !important;
@@ -79,3 +84,49 @@ BalaM314- Interstellar.
 .theme-dark .pageWrapper-1PgVDX {
   background-color: #101080 !important;
 }
+.wordmark-2iDDfm:after {
+  content: "P I R O C O R D";
+  font-size: 15px;
+  position: absolute;
+  width: 3500px;
+  top: 5px;
+  padding-left: 0px;
+  font-family: 'bold';
+  color: #9F0;
+}
+.wordmark-2iDDfm > svg {
+  width: 0px;
+}
+.wordmark-2iDDfm {
+    left: 25px;
+}
+.wordmark-2iDDfm:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 50px;
+  bottom: 0;
+  right: 0;
+  background: url(https://cdn.discordapp.com/attachments/709904643819307030/851041307433893908/pirocord-logo.png) center/20px no-repeat;
+}
+.userPopout-xaxa6l[aria-label="BalaM314"] .username-2b1r56 {
+  color:#3141FF;
+}
+.message-2qnXI6[data-author-id="709904412033810533"] .username-1A8OIy {
+  color:#3141FF;
+}
+.container-1CE3eW {
+  background-color: #337;
+  color: #999;
+}
+.container-UC8Ug1 {
+  background-color: #282868 !important;
+}
+.container-UC8Ug1:hover {
+  background-color: #226 !important;
+}
+
+/*
+.inner-1ilYF7
+.avatar-3EQepX[data-user-id="709904412033810533"]
+*/
