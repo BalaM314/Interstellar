@@ -109,12 +109,45 @@ BalaM314- Interstellar.
   right: 0;
   background: url(https://cdn.discordapp.com/attachments/709904643819307030/851041307433893908/pirocord-logo.png) center/20px no-repeat;
 }
+@keyframes balaname {
+  0% {color: #3141FF;}
+  25% {color: #31FF41;}
+  50% {color: #3141FF;}
+  75% {color: #FF3141;}
+  100% {color: #3141FF;}
+}
+
 .userPopout-xaxa6l[aria-label="BalaM314"] .username-2b1r56 {
   color:#3141FF;
+  animation-name: balaname;
+  animation-duration: 10s;
 }
 .message-2qnXI6[data-author-id="709904412033810533"] .username-1A8OIy {
   color:#3141FF;
 }
+
+.message-2qnXI6[data-author-id="709904412033810533"] .username-1A8OIy:focus {
+  color:#3141FF;
+  animation-name: balaname;
+  animation-duration: 10s;
+}
+
+.username-2b1r56.username-FvTBog {
+  color:#3141FF;
+  animation-name: balaname;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.badgeList-1R1WgZ::after {
+  content: "π";
+  margin-top: -7px;
+  font: 30px bold;
+  animation-name: balaname;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
 .container-1CE3eW {
   background-color: #337;
   color: #999;
