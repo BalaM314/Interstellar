@@ -17,6 +17,9 @@ BalaM314- Interstellar.
   --scrollbar-auto-track: #003b10 !important;
   --scrollbar-auto-scrollbar-color-thumb: #005b10 !important;
   --scrollbar-auto-scrollbar-color-track: #003b10 !important;
+  --background-accent: #202060 !important;
+  --search-popout-option-fade: var(--background-floating) !important;
+  --search-popout-option-fade-hover: var(--background-accent) !important;
 }
 .layer-2KE1M9 .theme-light {
   --header-primary: #9EC !important;
@@ -84,7 +87,7 @@ BalaM314- Interstellar.
 .theme-dark .pageWrapper-1PgVDX {
   background-color: #101080 !important;
 }
-.wordmark-2iDDfm:after {
+.wordmark-2u86JB:after {
   content: "P I R O C O R D";
   font-size: 15px;
   position: absolute;
@@ -94,13 +97,13 @@ BalaM314- Interstellar.
   font-family: 'bold';
   color: #9F0;
 }
-.wordmark-2iDDfm > svg {
+.wordmark-2u86JB > svg {
   width: 0px;
 }
-.wordmark-2iDDfm {
+.wordmark-2u86JB {
     left: 25px;
 }
-.wordmark-2iDDfm:before {
+.wordmark-2u86JB:before {
   content: '';
   position: absolute;
   height: 100%;
